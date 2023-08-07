@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DSW - UNAD</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Diseño de Sitios Web - GRUPO 301122_9</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tema.html">Audios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cuestionarios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Cuestionario_Selectores.html">Selectores CSS</a>
+                        <a class="dropdown-item" href="Cuestionario_media.html">Media Queries</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="grid-container">
+        <aside>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tema.html">Audios</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="tema">
+                <h2 class="centrar">Tema Seleccionado Luz Quitian: Selectores CSS</h2>
+                <p>Los selectores CSS son una parte fundamental de la sintaxis de CSS. Permiten seleccionar y estilizar
+                    elementos específicos en una página web. Aquí te mostraremos algunos ejemplos de selectores comunes:
+                </p>
+
+                <h3>Selector de elemento</h3>
+                <p>El selector de elemento selecciona todos los elementos de un tipo específico. Por ejemplo:</p>
+                <pre><code>p {
+            color: blue;
+          }</code></pre>
+
+                <h3>Selector de clase</h3>
+                <p>El selector de clase selecciona elementos que tienen un atributo de clase específico. Por ejemplo:
+                </p>
+                <pre><code>.destacado {
+            font-weight: bold;
+          }</code></pre>
+
+                <h3>Selector de ID</h3>
+                <p>El selector de ID selecciona un único elemento con un atributo de ID específico. Por ejemplo:</p>
+                <pre><code>#logo {
+            width: 200px;
+          }</code></pre>
+
+                <h3>Selector de atributo</h3>
+                <p>El selector de atributo selecciona elementos que tienen un atributo específico. Por ejemplo:</p>
+                <pre><code>input[type="text"] {
+            border: 1px solid gray;
+          }</code></pre>
+
+                <h3>Selector descendente</h3>
+                <p>El selector descendente selecciona elementos secundarios dentro de un elemento principal. Por
+                    ejemplo:</p>
+                <pre><code>ul li {
+            list-style-type: circle;
+          }</code></pre>
+
+                <h3>Selector de hermanos adyacentes</h3>
+                <p>El selector de hermanos adyacentes selecciona el siguiente elemento inmediato que sigue al elemento
+                    actual. Por ejemplo:</p>
+                <pre><code>h2 + p {
+            color: red;
+          }</code></pre>
+
+                <h3>Selector de pseudo-clase</h3>
+                <p>El selector de pseudo-clase selecciona elementos en función de un estado o acción específica. Por
+                    ejemplo:</p>
+                <pre><code>a:hover {
+            text-decoration: underline;
+          }</code></pre>
+
+                <h3>Selector de pseudo-elemento</h3>
+                <p>El selector de pseudo-elemento selecciona partes específicas de un elemento. Por ejemplo:</p>
+                <pre><code>p::first-line {
+            font-weight: bold;
+          }</code></pre>
+
+                <h3>Combinación de selectores</h3>
+                <p>También es posible combinar varios selectores para seleccionar elementos de forma más precisa. Por
+                    ejemplo:</p>
+                <pre><code>h1, h2 {
+            color: green;
+          }</code></pre>
+
+                <img src="https://pbs.twimg.com/media/EdTVA1CWAAAvVIu.jpg" alt="Imagen relacionada con selectores CSS">
+                <h2 class="centrar">Tema Seleccionado Valentina Escobar: Media Queries</h2>
+                <p>Las Media Queries son una de las principales novedades de CSS3. Estas construcciones del lenguaje
+                    CSS permiten definir estilos condicionales, aplicables únicamente en determinadas situaciones.
+                    Conoce todos los detalles de las mediaqueries CSS. En la mayoría de los casos las Media Queries
+                    sirven para definir estilos diferentes para distintos tamaños de la pantalla. Son sencillas de
+                    entender y aplicar, aunque a decir verdad el estándar es bastante sofisticado. Nos ofrecen muchas
+                    posibilidades a la hora de aplicar estilos condicionales, con múltiples casos de uso, algunos no tan
+                    habituales en el mundo del diseño actual, pero que podrán tener su protagonismo en algún momento.
+                </p>
+                <p>Se calcula como true cuando el tipo de medio (si se especifica) coincide con el dispositivo en el que
+                    se muestra un documento y todas las expresiones de características de medios se computan como
+                    verdaderas. Las consultas que involucran tipos de medios desconocidos siempre son falsas.</p>
+                <h3>Las media queries se utilizan para lo siguiente:</h3>
+                <p>* Para aplicar estilos condicionalmente utilizando las reglas de arroba CSS @media e @import.</p>
+                <p>* Para segmentar medios específicos para style, link, source y otros HTML con el atributo media=.</p>
+                <p>* Para probar y monitorear los estados de los medios (en-US) usando los métodos Window.matchMedia()
+                    y EventTarget.addEventListener()..</p>
+
+                <h3>Sintaxis</h3>
+                <p>Una media query se compone de un tipo de medio opcional y cualquier cantidad de expresiones de
+                    características de medios, que pueden combinarse opcionalmente de varias maneras usando operadores
+                    lógicos. Las consultas de medios no distinguen entre mayúsculas y minúsculas.</p>
+
+                <h3>Destinos de tipos de medios</h3>
+                <p>Los tipos de medios describen la categoría general de un dispositivo determinado. Aunque los sitios
+                    web suelen diseñarse teniendo en cuenta las pantallas, es posible que desee crear estilos destinados
+                    a dispositivos especiales, como impresoras o lectores de pantalla basados en audio.</p>
+                <p>Por ejemplo, estos CSS son para las impresoras:</p>
+
+                <div class="image-container">
+                    <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2020/09/consultas-de-medios-de-comunicacion.png"
+                        alt="Imagen relacionada con media queries">
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 DSW UNAD . Ultima actualizacion: 26 de Julio de 2023</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

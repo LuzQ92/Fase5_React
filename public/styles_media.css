@@ -1,0 +1,34 @@
+
+<!--diseño de ajuste para cada parte de la información de la pagina-->
+
+#container{
+width: 1170px;
+margin: 0px auto;
+border: 1px solid;
+}
+
+header {
+    height: 10vh;
+    background-color: #C9A7EB;
+    color: #9384D1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.clearfix{
+clear:both;
+}
+
+#content{
+float: left;
+min-height: 500px;
+}
+
+footer{
+background: #ECC9EE;
+color: white;
+text-align: center;
+height: 50px;
+line-height: 50px; 
+}
