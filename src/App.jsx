@@ -22,7 +22,7 @@ function App() {
       <h3>Grupo: 301122_9</h3>
       <div className="card">
         <button type="button">
-          <a href="index.html">Ir a la pagina de inicio</a>
+          <a href="index1.html">Ir a la pagina de inicio</a>
         </button>
       </div>
       <p className="read-the-docs">
